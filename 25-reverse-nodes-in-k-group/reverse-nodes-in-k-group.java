@@ -25,11 +25,9 @@ class Solution {
                 count++;
             }
             if(count != k ){
-                System.out.println(3);
                 break;
             }
             else{
-                System.out.println(4);
                 ListNode NextHead = end;
                 reverseList(start, end);
                 start.next = NextHead;
